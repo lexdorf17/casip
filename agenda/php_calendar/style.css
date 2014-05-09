@@ -1,0 +1,88 @@
+/*PHP Calendar StyleSheet*/
+body {
+
+}
+a {
+  color: #0000FF;
+  text-decoration: none;
+}
+a:hover {
+  color: #0066FF;
+  text-decoration: underline;
+}
+.month_title {
+  text-align: center;
+  font-weight:bold;
+  width: 182px;
+  margin: 1px 2px;
+  padding: 4px 0;
+background: #fceabb; /* Old browsers */
+background: -moz-linear-gradient(top, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fceabb), color-stop(50%,#fccd4d), color-stop(51%,#f8b500), color-stop(100%,#fbdf93)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* IE10+ */
+background: linear-gradient(to bottom, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 ); /* IE6-9 */
+border: 1px solid #fccd4d;
+  color: white;
+}
+.month_title a{
+    color: white;
+}
+.month_name {
+  float: left;
+  width: 109px;
+}
+.month_move {
+  float: left;
+  width: 20px;
+}
+.week_day {
+  float: left;
+  width: 24.4px;
+  margin: 1px;
+  font-size: 10px;
+  background-color:  #ffff88;
+  color: black;
+  text-align: center;
+  padding: 1px 0;
+}
+.no_day {
+  float:left;
+  width: 22px;
+  height: 22px;
+}
+.day, .day_today {
+  float:left;
+  width: 24.4px;
+  height: 20px;
+  border: 1px solid #999999;
+  background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  margin: 1px;
+  padding: 1px 0 0 0;
+  font-family: Arial;
+  text-align: center;
+  color: #bcbcbc;
+}
+.day_today {
+  border: 2px solid orange;
+  font-weight: bold;
+}
+.r {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	font-size: 0; 
+}

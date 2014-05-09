@@ -1,0 +1,62 @@
+
+
+    [class*="foundicon-"]:after { position: relative;   top: -3px; left: 4px; color: #888; font-size: 14px; font-style: normal; }
+    .icon{
+        margin: 0px 10px 0px 0px;
+    }
+    .foundicon-settings:after        { content: "settings"; }
+    .foundicon-heart:after           { content: "heart"; }
+    .foundicon-star:after            { content: "star"; }
+    .foundicon-plus:after            { content: "Tambah Data";  }
+    .foundicon-minus:after           { content: "minus"; }
+    .foundicon-checkmark:after       { content: "checkmark"; }
+
+    .foundicon-remove:after          { content: "remove"; }
+    .foundicon-mail:after            { content: "mail"; }
+    .foundicon-calendar:after        { content: "calendar"; }
+    .foundicon-page:after            { content: "page"; }
+    .foundicon-tools:after           { content: "tools"; }
+    .foundicon-globe:after           { content: "globe"; }
+
+    .foundicon-home:after            { content: "home"; }
+    .foundicon-quote:after           { content: "quote"; }
+    .foundicon-people:after          { content: "Username"; }
+    .foundicon-monitor:after         { content: "monitor"; }
+    .foundicon-laptop:after          { content: "laptop"; }
+    .foundicon-phone:after           { content: "phone"; }
+
+    .foundicon-cloud:after           { content: "cloud"; }
+    .foundicon-error:after           { content: "error"; }
+    .foundicon-right-arrow:after     { content: "Detail"; }
+    .foundicon-left-arrow:after      { content: "left-arrow"; }
+    .foundicon-up-arrow:after        { content: "up-arrow"; }
+    .foundicon-down-arrow:after      { content: "down-arrow"; }
+
+    .foundicon-trash:after           { content: "Hapus"; }
+    .foundicon-add-doc:after         { content: "add-doc"; }
+    .foundicon-edit:after            { content: "Edit"; }
+    .ind .foundicon-edit:after       { content: "Edit Indonesia"; }
+    .eng .foundicon-edit:after       { content: "Edit Inggris"; }
+    .foundicon-lock:after            { content: "Password"; }
+    .foundicon-unlock:after          { content: "unlock"; }
+    .foundicon-refresh:after         { content: "refresh"; }
+
+    .foundicon-paper-clip:after      { content: "paper-clip"; }
+    .foundicon-video:after           { content: "video"; }
+    .foundicon-photo:after           { content: "photo"; }
+    .foundicon-graph:after           { content: "Grafik"; }
+    .foundicon-idea:after            { content: "Jawab"; }
+    .foundicon-mic:after             { content: "mic"; }
+
+    .foundicon-cart:after            { content: "cart"; }
+    .foundicon-address-book:after    { content: "address-book"; }
+    .foundicon-compass:after         { content: "compass"; }
+    .foundicon-flag:after            { content: "flag"; }
+    .foundicon-location:after        { content: "location"; }
+    .foundicon-clock:after           { content: "clock"; }
+
+    .foundicon-folder:after          { content: "folder"; }
+    .foundicon-inbox:after           { content: "inbox"; }
+    .foundicon-website:after         { content: "website"; }
+    .foundicon-smiley:after          { content: "smiley"; }
+    .foundicon-search:after          { content: "search"; }

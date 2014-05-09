@@ -1,0 +1,178 @@
+body{
+    background: url(../images/bg/bg3.png) #58b929;
+    background-size:contain;
+}
+.box .title{
+    border-radius: 5px 5px 0px 0px;
+}
+.box{
+    margin-bottom: 15px;
+}
+.box .title a{
+    color: black;
+    font-weight: 300;
+}
+.box .content{
+    border-radius:0px 0px 5px 5px;
+}
+.box .title, .box .content{
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(50,50,50,0.1);
+}
+.left{
+    margin: 0;
+}
+.box .content{
+    background: white;
+}
+.menu-top{
+    margin-bottom: 10px;
+    margin-top: -30px;  
+}
+.menu-top .home img{
+    margin: 7px 0px 0px 0px;
+}
+.menu-top .garis{
+    border-right:1px solid #7fa526;
+}
+.menu-top a:hover{
+    text-decoration: none;
+}
+
+.shadow{
+    box-shadow:0px 1px 4px rgba(23,23,23,0.5);
+}
+.cright{
+    background: white;
+    padding-top: 10px;
+    
+}
+.top{
+    text-align: right;
+    padding: 35px 15px 15px 15px;
+    background: url(../images/orna.png) no-repeat left bottom;
+}
+.top .logo{
+    font-size: 31px;
+    font-family:Bernard MT Condensed;
+    color: white;
+    text-shadow: 6px 6px 6px rgba(23,23,23,0.1);
+}
+.vertical-menu li{
+    list-style: circle;
+}
+.vertical-menu li a{
+    color: black;
+}
+.left .vertical-menu li a{
+    font-size: 12px;
+}
+.left .vertical-menu li{
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+.cp{
+    padding-top: 10px;
+    background: url(../images/bgbottom.jpg) bottom repeat-x white;
+}
+.cp .content a{
+    font-size: 13px;
+}
+.cp .title{
+    border-bottom: 1px dashed #ccc;
+    padding: 7px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: black;
+}
+.cp .title a{
+    color: black;
+}
+.cp .content img{
+    margin-bottom: 3px;
+}
+.img-galeri{
+    margin: 5px;
+}
+.berita h5{
+    margin: 15px 0px 5px 0px;
+}
+.berita .row{
+    padding: 15px 0px 0px 0px;
+}
+.berita{
+    border-bottom: 1px solid #ccc;
+}
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table thead th {
+  vertical-align: bottom;
+}
+.footer{
+    padding: 10px;
+}
+.cat{
+}
+.cat .title{
+    padding: 5px;
+}
+.cat p{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.pesan{
+    border:1px solid #ccc;
+    margin-top: 10px;
+}
+.pesan .title{
+    padding: 5px;
+    border-bottom:1px solid #ccc;
+    font-weight: bold;
+    font-size: 15px;
+}
+.pesan .content{
+    padding: 10px 10px 20px 10px;
+    border-top: none;
+    min-height: 70px;
+}
+.pesan .boot{
+    border-top:1px solid #ccc;
+    padding: 5px;
+}
+.bahasa{
+    color: white;
+    padding: 10px 0px 5px 0px;
+    text-align: right;
+}
+.bahasa a{
+    color: white;
+}
+.bahasa a:hover{
+    text-decoration: none;
+}
+.tsmall{
+    font-size: 12px;
+}
+.abu{
+    color: grey;
+}
+.src{
+    background: url(../images/search.png) right no-repeat;
+    padding-right: 20px;
+}
